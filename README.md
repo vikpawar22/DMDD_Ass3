@@ -192,6 +192,8 @@ SQL Statement:
 	FROM Player p
 	JOIN Team  ON Team_Name = TEAM
 	GROUP BY Team_Name;
+	
+![image](https://github.com/vikpawar22/DMDD_Ass3/blob/master/Images/UC_1.png)
 
 
 
@@ -202,6 +204,8 @@ SQL Statement:
 	FROM Player_Stats 
 	JOIN Player ON Player = Player_Name
 	JOIN Team  ON Team_Name = Team
+	
+![image](https://github.com/vikpawar22/DMDD_Ass3/blob/master/Images/UC_2.png)
 
 	
 
@@ -214,6 +218,8 @@ SQL Statement:
 	JOIN Player ON Player = Player_Name
 	JOIN Team  ON Team_Name = Team
 	WHERE 3_Points_Percentage > 0.4;
+	
+![image](https://github.com/vikpawar22/DMDD_Ass3/blob/master/Images/UC_3.png)
 
 
 
@@ -225,6 +231,8 @@ SQL Statement:
 	JOIN Player ON Player = Player_Name
 	JOIN Team  ON Team_Name = Team
 	WHERE Age between 25 AND 30;
+	
+![image](https://github.com/vikpawar22/DMDD_Ass3/blob/master/Images/UC_4.png)
 
 
 
@@ -236,6 +244,8 @@ SQL Statement:
 	JOIN Player ON Player = Player_Name
 	JOIN Team  ON Team_Name = Team
 	WHERE position = 'C' 
+	
+![image](https://github.com/vikpawar22/DMDD_Ass3/blob/master/Images/UC_5.png)
 
 
 
@@ -246,6 +256,8 @@ SQL Statement:
 	FROM Player_Stats 
 	JOIN Player ON Player = Player_Name
 	JOIN Team  ON Team_Name = Team
+	
+![image](https://github.com/vikpawar22/DMDD_Ass3/blob/master/Images/UC_6.png)
 
 
 
@@ -257,6 +269,8 @@ SQL Statement:
 	JOIN Player ON Player = Player_Name
 	JOIN Team  ON Team_Name = Team
 	WHERE position = 'PF' ; 
+	
+![image](https://github.com/vikpawar22/DMDD_Ass3/blob/master/Images/UC_7.png)
 
 
 
@@ -268,6 +282,8 @@ SQL Statement:
 	FROM Player_Stats 
 	JOIN Player ON Player = Player_Name
 	JOIN Team  ON Team_Name = Team;
+	
+![image](https://github.com/vikpawar22/DMDD_Ass3/blob/master/Images/UC_8.png)
 
 
 
@@ -281,6 +297,9 @@ SQL Statement:
 	JOIN Team  ON Team_Name = Team
 	WHERE SRS > 3;
 
+![image](https://github.com/vikpawar22/DMDD_Ass3/blob/master/Images/UC_9.png)
+
+
 
 ### 10.  Which player has the highest points from each team?
 
@@ -290,7 +309,9 @@ SQL Statement:
 	JOIN Player ON Player = Player_Name
 	JOIN Team  ON Team_Name = Team
 	GROUP BY Team
-
+	
+	
+![image](https://github.com/vikpawar22/DMDD_Ass3/blob/master/Images/UC_10.png)
 
 
 
