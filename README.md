@@ -301,7 +301,7 @@ SQL Statement:
 
 
 
-### 10.  Which player has the highest points from each team?
+### 10.  Which players have the highest points from each team?
 
 SQL Statement:
 	SELECT DISTINCT(PLayer),MAX(Points), Team
